@@ -18,10 +18,10 @@ func fibonacci() (func(i int) int) {
 }
 
 func main() {
-	m:= 20
+	count:= 20
 	f := fibonacci()
 
-	for i := 0; i < m; i++ {
+	for i := 0; i < count; i++ {
 		fmt.Println(f(i))
 	}
 }
